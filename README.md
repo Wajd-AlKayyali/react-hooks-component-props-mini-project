@@ -55,6 +55,8 @@ Make an `ArticleList` component as a child of `App`. It should return:
 - a `<main>` element with the following components inside:
   - an array of `Article` components (one component for each of the `posts`
     passed down as props to `ArticleList`)
+    check: function Article({ title, date = "January 1, 1970", preview }) 
+
   - make sure to assign a unique `key` attribute to each `Article`
 
 ### Article
